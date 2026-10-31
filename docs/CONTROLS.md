@@ -1,6 +1,6 @@
 # Control reference
 
-Every control in MotherBox, what it does, and how to get at it. Labels here match the interface.
+Every control in intergr8, what it does, and how to get at it. Labels here match the interface.
 
 ## Getting sound
 
@@ -190,4 +190,4 @@ Most controls are knobs with an attached numeric field and seven-segment readout
 
 ## Saving and backups
 
-Patches live in browser `localStorage`, so they are per-browser and per-origin. Saving a patch also downloads a JSON file; that file is a complete backup including bass settings and any captured audio. Loading a factory preset discards unsaved edits without warning — save first if the sound matters.
+Patches live in browser `localStorage`, so they are per-browser and per-origin. Saving a patch also downloads `intergr8-patch.json`; that file is a complete backup including bass settings and any captured audio. WAV exports are named `intergr8-capture.wav`. Loading a factory preset discards unsaved edits without warning — save first if the sound matters.

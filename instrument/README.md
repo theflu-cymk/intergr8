@@ -1,4 +1,4 @@
-# MotherBox — instrument
+# intergr8 — instrument
 
 The application lives in [dist/](dist/). Serve that directory over HTTP on localhost and open it in a modern browser:
 

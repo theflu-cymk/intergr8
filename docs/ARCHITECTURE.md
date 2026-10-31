@@ -1,6 +1,6 @@
 # Architecture
 
-MotherBox is plain HTML, CSS and ES2020 JavaScript with no build step, no bundler and no dependencies. Everything is served as-is from `instrument/dist/`. This document explains how the pieces fit together and where to make changes.
+intergr8 is plain HTML, CSS and ES2020 JavaScript with no build step, no bundler and no dependencies. Everything is served as-is from `instrument/dist/`. This document explains how the pieces fit together and where to make changes.
 
 ## Module map
 
@@ -140,6 +140,8 @@ The legacy `to` key is still present on factory routes for backwards compatibili
 | --- | --- |
 | `blackbox-patch` | The full working state, restored on load (including `cleanSignature`) |
 | `motherbox-library` | Array of `{ id, name, patch }` for named user patches |
+
+The `motherbox-*` names that survive in code — the two storage keys, the `motherbox-bass` worklet processor, the `motherbox.css`/`motherbox.svg` assets and the `.motherbox-logo` class — are legacy identifiers kept deliberately when the instrument was renamed to intergr8. Changing the storage keys or the processor name would orphan existing saved patches and break the worklet handshake, so treat them as fixed.
 
 `patchSignature()` hashes the musically meaningful parts (generators, macros, routes, bass, tempo, sync, volume, soft clip). `updatePatchIdentity()` compares it with `cleanSignature` to drive the `MODIFIED · SAVE PATCH` readout, and is called from delegated `input` / `change` / `click` listeners so any control is tracked without per-control wiring.
 

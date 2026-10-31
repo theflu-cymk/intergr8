@@ -1,4 +1,4 @@
-/* MotherBox: worn screen-printed identity. */
+/* intergr8: worn screen-printed identity. */
 .brand{padding:0;display:flex;align-items:center;flex-shrink:0;filter:drop-shadow(.5px 1px 0 #181e1166)}
 .brand .motherbox-logo{width:226px;height:auto;display:block;opacity:.94;transform:rotate(-.35deg);mix-blend-mode:screen}
 .status>span{display:none}

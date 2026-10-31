@@ -1,6 +1,6 @@
 # Contributing
 
-MotherBox is a static site. There is nothing to install, compile or bundle — the files in `instrument/dist/` are the program.
+intergr8 is a static site. There is nothing to install, compile or bundle — the files in `instrument/dist/` are the program.
 
 ## Run it
 

@@ -1,10 +1,10 @@
-# MotherBox
+# intergr8
 
 A standalone browser bass instrument with a worn, cassette-futurist hardware interface. No build step, no package manager, no dependencies — open it on a local web server and play.
 
-![MotherBox interface](instrument/docs/motherbox-interface.png)
+![intergr8 interface](instrument/docs/intergr8-interface.png)
 
-MotherBox is a monophonic bass synth running entirely in the browser. It pairs a small modulation matrix of five generator families with a dedicated bass voice: an FM wavetable carrier, an independent mono sub, a three-band distortion stage with reorderable processing, a 16-step phrase sequencer, and a granular resampler that can capture its own output.
+intergr8 is a monophonic bass synth running entirely in the browser. It pairs a small modulation matrix of five generator families with a dedicated bass voice: an FM wavetable carrier, an independent mono sub, a three-band distortion stage with reorderable processing, a 16-step phrase sequencer, and a granular resampler that can capture its own output.
 
 It began as **Black Box**, a modulation-instrument prototype kept as `black-box-prototype.zip`; the current code lives in [instrument/](instrument/), and `motherbox.zip` is a snapshot export of its `dist/` build.
 
@@ -12,7 +12,7 @@ It began as **Black Box**, a modulation-instrument prototype kept as `black-box-
 
 ## Quick start
 
-MotherBox uses `AudioWorklet`, which browsers only allow on `localhost` or HTTPS. Opening `index.html` from disk will not make sound.
+intergr8 uses `AudioWorklet`, which browsers only allow on `localhost` or HTTPS. Opening `index.html` from disk will not make sound.
 
 ```bash
 # any static server works
