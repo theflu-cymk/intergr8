@@ -1,0 +1,31 @@
+/* Compact panel spacing. */
+body{padding:18px 26px 24px}
+header{height:82px;min-height:82px;padding-left:25px;padding-right:155px}
+main{padding-left:25px;padding-right:25px}
+.brand .motherbox-logo{width:207px}
+.deck-vents{top:16px;right:27px;height:48px;width:103px}
+.toolbar{padding:12px 0;gap:15px}
+.mode{padding:5px;gap:7px}.mode button{min-height:36px;padding:7px 12px;min-width:108px}
+.clock{gap:9px}.clock button{min-height:33px;padding:5px 7px}.clock input{font-size:18px;padding:3px 2px}
+.patchbar{padding:15px 0 16px}.patchbar h1{font-size:24px;margin:6px 0 0}.patchbar>div>small{font-size:7px}
+.patchnav{padding:5px}.patchnav button{min-height:34px;padding:6px 11px}
+.instrument{grid-template-columns:187px minmax(0,1fr) 219px;min-height:0;padding:4px}
+.generators{padding:13px 11px}.generators>.sectiontitle{padding:0 1px 12px}
+.gen{min-height:51px;padding:7px 8px;margin-bottom:9px;gap:8px}.gen small{margin-top:4px}
+.add{min-height:30px;padding:5px 9px;margin-top:2px}.bus{margin-top:12px;padding:11px 4px 0}.busline{height:13px;margin:7px 0 0}
+.visual{margin:7px;border-width:8px}.visualtop{height:52px;padding:9px 13px}.visualtop small{margin-top:4px}
+.canvaswrap{height:250px;min-height:250px;margin:0 9px;flex:1}
+.signaloutputs{min-height:34px;padding:10px 12px;gap:12px}
+.parameters{padding:13px 14px}.parameters>.sectiontitle{padding-bottom:9px}.paramtitle{margin:16px 0 18px;font-size:19px}.param{margin-bottom:19px}.param input{margin-top:11px}
+#advanced{margin-top:12px;padding:13px 15px}#advanced>.sectiontitle{padding-bottom:9px}#routes{gap:9px;margin-top:11px}.route{padding:9px;gap:8px}
+.macros{margin-top:12px;padding:5px;min-height:145px}.macrointro{width:108px;padding:15px 12px}
+#macros{padding:18px 8px 13px;gap:9px}.knob{width:56px;height:56px}.knob:after{left:26px;top:9px;transform-origin:1.5px 19px;height:13px}.macro b{margin-top:12px}.macro output{margin-top:5px}
+.output{padding:15px 15px 22px;width:207px}.meters{margin-top:16px;height:25px;padding:5px;gap:4px}.outputrow{margin-top:11px}.output label{margin-top:10px}
+.tape-bank{margin-top:12px;padding:8px 12px;gap:12px}.tape-reels{padding:4px 10px;border-width:3px;gap:24px}.reel{width:20px;height:20px}.reel:after{inset:4px}.tape-hazard{height:34px}.tape-label{line-height:1.8}
+.presets{padding-top:16px}#presets{padding:9px;gap:11px;margin-top:9px}.preset{min-height:79px;padding:10px 11px;gap:11px}.preset small{margin-top:5px}.preset .art{width:30px;height:32px;font-size:27px}
+footer{margin-top:13px;padding:15px 0 17px}
+.automated .visual{margin:7px}.automated .canvaswrap{height:300px;min-height:300px}.automated .macrointro{width:108px}
+@media(min-width:1450px){.canvaswrap{height:270px;min-height:270px}.instrument{min-height:0}.knob{width:60px;height:60px}.knob:after{left:28px;transform-origin:1.5px 21px}.macrointro{width:125px}.automated .macrointro{width:125px}}
+@media(max-width:1150px){body{padding:15px 19px 24px}header,main{padding-left:20px}.instrument{grid-template-columns:170px minmax(0,1fr) 198px}.mode button{min-width:95px;padding:7px 10px}.output{width:183px;padding-left:12px;padding-right:12px}.macrointro{width:92px;padding:13px 10px}.knob{width:49px;height:49px}.knob:after{left:23px;top:8px;transform-origin:1.5px 16.5px;height:11px}.gen{padding:7px 6px;gap:6px}.paramtitle{font-size:18px}.parameters{padding:13px 11px}.preset{padding:9px 8px;gap:8px}}
+@media(max-width:900px){body{padding:12px 14px 23px}header{padding-right:128px}.deck-vents{width:83px;right:21px}.instrument{grid-template-columns:157px minmax(0,1fr)}.parameters{grid-column:1/-1;padding:12px 14px;gap:12px;grid-template-columns:123px 1fr}.paramtitle{margin:0}.param{margin:0}#parameters{gap:14px}.macrointro{display:none}.knob{width:44px;height:44px}.knob:after{left:20px;transform-origin:1.5px 14px;height:10px}.macros{min-height:136px}.preset{min-height:77px}}
+@media(max-width:680px){body{padding:8px 8px 20px}header{height:71px;min-height:71px;padding:0 14px}main{padding-left:11px;padding-right:11px}.brand .motherbox-logo{width:165px}.toolbar{padding:10px 0;gap:9px}.mode{padding:5px;gap:8px}.mode button{min-width:0;min-height:35px;padding:5px 6px;font-size:9px}.clock{margin-top:5px;margin-bottom:2px;gap:10px}.clock input{font-size:16px}.clock button{min-height:30px}.patchbar{padding:13px 0 14px}.patchbar h1{font-size:19px}.patchnav{gap:8px;padding:4px}.patchnav button{padding:4px 8px;min-height:31px}.instrument{grid-template-columns:1fr;padding:3px}.generators{padding:11px 9px}.generators>.sectiontitle{padding-bottom:7px}#generators{padding:4px 3px 6px;gap:11px}.gen{min-width:119px;min-height:52px;margin:0 0 2px;padding:7px}.add{margin:7px 3px 3px;min-height:28px;padding:4px 9px}.bus{display:none}.visual{margin:6px;border-width:6px}.visualtop{height:51px;padding:8px 9px}.visualtop b{font-size:8px}.canvaswrap{min-height:220px;height:220px;margin:0 7px}.signaloutputs{min-height:31px;padding:9px 10px}.parameters{grid-template-columns:1fr;padding:12px 10px;gap:12px}.parameters>.sectiontitle{padding-bottom:8px}.paramtitle{font-size:18px}.param{margin:0}.param input{margin-top:10px;margin-bottom:5px}#parameters{gap:15px}.macros{margin-top:11px;padding:4px;min-height:0}#macros{padding:17px 7px 13px;gap:6px}.knob{width:40px;height:40px}.knob:after{left:18px;top:7px;transform-origin:1.5px 13px;height:9px}.macro b{margin-top:11px;font-size:7px}.macro output{font-size:7px;margin-top:5px}.output{width:100%;padding:13px 9px 20px}.outputrow{margin:0}.meters{margin:0;height:23px;padding:4px;gap:3px}.output label{margin:0}.tape-bank{margin-top:11px;padding:8px 9px;gap:9px}.tape-reels{gap:17px;padding:4px 7px}.reel{width:17px;height:17px}.reel:after{inset:3px}.tape-hazard{height:29px}.tape-label b{font-size:7px}.tape-label{font-size:5px}.presets{padding-top:14px}#presets{padding:8px;gap:10px;margin-top:8px}.preset{min-height:75px;padding:8px 7px;gap:7px}.preset b{font-size:9px}.preset small{margin-top:5px}.preset .art{width:24px;font-size:24px}.preset .number{font-size:6px}footer{margin-top:11px;padding:13px 0 15px}#advanced{margin-top:11px;padding:12px}.route{padding:10px}.automated .canvaswrap{height:270px;min-height:270px}}

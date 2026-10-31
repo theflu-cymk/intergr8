@@ -1,0 +1,18 @@
+/* MotherBox: worn screen-printed identity. */
+.brand{padding:0;display:flex;align-items:center;flex-shrink:0;filter:drop-shadow(.5px 1px 0 #181e1166)}
+.brand .motherbox-logo{width:226px;height:auto;display:block;opacity:.94;transform:rotate(-.35deg);mix-blend-mode:screen}
+.status>span{display:none}
+#modeHint,#patchDesc,.console-telemetry,.paramnote,.bus small,.crt-stencil,.tape-label-right,.tape-label small{display:none!important}
+.deck-vents:after,.patchbar:after,.patchbar>div:first-child:before,.patchbar>div>small:before,.presets:after,.macros:after,.parameters>.sectiontitle:before,.generators>.sectiontitle:before,.output .sectiontitle:before,.route:before{content:none!important}
+.patchbar>div:first-child{padding-left:0;border-left:0}
+.patchbar>div>small{font-size:8px;color:#b4b38e;letter-spacing:1.4px}
+.patchbar{padding-bottom:24px}
+.macrointro{width:123px;padding:22px 16px;display:flex;align-items:center}
+.macrointro .sectiontitle{font:8px monospace;letter-spacing:1.4px;color:#b6be97}
+.tape-bank{padding:10px 15px}.tape-label{font-size:7px}.tape-label b{font-size:9px}
+.tape-hazard{margin-left:auto}
+footer{justify-content:center}
+.parameters>.sectiontitle{justify-content:space-between}.generators>.sectiontitle{justify-content:space-between}
+.output .sectiontitle{justify-content:space-between}
+@media(max-width:900px){.brand .motherbox-logo{width:205px}.macrointro{display:none}}
+@media(max-width:680px){.brand .motherbox-logo{width:177px}.tape-bank{padding:10px}.tape-label b{font-size:8px}.tape-label{font-size:6px}.patchbar{padding-bottom:20px}}

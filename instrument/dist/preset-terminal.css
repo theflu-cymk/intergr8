@@ -1,0 +1,13 @@
+/* Preset readout / monochrome terminal behind smoked glass. */
+.patchbar{gap:20px;padding:14px 0 16px;align-items:center}
+.patchbar>div:first-child{position:relative;isolation:isolate;flex:1;max-width:650px;min-width:0;min-height:88px;padding:13px 21px 15px!important;background:radial-gradient(ellipse at 42% 30%,#153622,#081d13 80%);border:7px solid;border-color:#283324 #1b291d #152318 #323b28;border-radius:9px;box-shadow:0 0 0 1px #73805b77,inset 0 0 24px #000b,0 1px 0 2px #ada47b22;overflow:hidden}
+.patchbar>div:first-child:after{content:'';position:absolute;inset:0;z-index:3;pointer-events:none;background:repeating-linear-gradient(0deg,#0004 0 1px,transparent 1px 3px),linear-gradient(123deg,#cbe4ad0a,transparent 48%),radial-gradient(ellipse at center,transparent 45%,#0005);box-shadow:inset 0 0 12px #0008;border-radius:3px}
+.patchbar>div>small{display:block;color:#7daa7d;font:7px/1.3 'Courier New',monospace;letter-spacing:2px;text-shadow:0 0 4px #7ec68766;margin:0 0 7px;opacity:.85}
+.patchbar h1{position:relative;color:#b4e2a9;font-family:'Courier New',Courier,monospace;font-weight:500;font-size:23px;line-height:1.15;letter-spacing:1px;text-transform:uppercase;margin:0;text-shadow:0 0 2px #b3e9a9,0 0 8px #78c58066,1px 0 #e0facb33;overflow-wrap:anywhere}
+.patchbar h1:before{content:'>';display:inline-block;color:#719f71;font-size:19px;margin-right:11px}
+.patchbar h1 span{color:#70a377;font:11px 'Courier New',monospace;letter-spacing:1px;margin-left:12px;white-space:nowrap;text-shadow:0 0 5px #7ec68755}
+.patchbar h1:after{content:'';display:inline-block;width:10px;height:18px;vertical-align:-1px;background:#a9d99b;margin-left:12px;box-shadow:0 0 5px #a0da8b66;opacity:.65}
+.patchnav{flex-shrink:0}
+@media(min-width:1450px){.patchbar>div:first-child{max-width:740px}.patchbar h1{font-size:25px}}
+@media(max-width:900px){.patchbar{gap:15px}.patchbar>div:first-child{min-height:82px;padding:12px 15px!important;border-width:6px}.patchbar h1{font-size:19px;letter-spacing:.6px}.patchbar h1:before{font-size:17px;margin-right:8px}.patchbar h1:after{height:15px;width:8px;margin-left:9px}.patchbar h1 span{font-size:9px;margin-left:8px}}
+@media(max-width:680px){.patchbar{gap:12px;padding:13px 0 14px}.patchbar>div:first-child{padding:11px 10px 12px!important;min-height:77px;border-width:5px;border-radius:6px}.patchbar>div>small{font-size:6px;letter-spacing:1.5px;margin-bottom:7px}.patchbar h1{font-size:16px;line-height:1.3;letter-spacing:.1px}.patchbar h1:before{font-size:14px;margin-right:6px}.patchbar h1 span{font-size:8px;margin-left:6px}.patchbar h1:after{height:12px;width:7px;margin-left:7px}.patchnav{gap:7px;padding:4px}.patchnav button{min-height:32px;padding:4px 7px}}

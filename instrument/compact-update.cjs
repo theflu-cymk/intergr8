@@ -1,0 +1,1 @@
+const fs=require('fs');let h=fs.readFileSync('dist/index.html','utf8');if(!h.includes('compact.css'))h=h.replace('<link rel="stylesheet" href="motherbox.css">','<link rel="stylesheet" href="motherbox.css"><link rel="stylesheet" href="compact.css">');fs.writeFileSync('dist/index.html',h);

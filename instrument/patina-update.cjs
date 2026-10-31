@@ -1,0 +1,1 @@
+const fs=require('fs');const p='dist/index.html';let h=fs.readFileSync(p,'utf8');if(!h.includes('patina.css'))h=h.replace('<link rel="stylesheet" href="cassette.css">','<link rel="stylesheet" href="cassette.css"><link rel="stylesheet" href="patina.css">');fs.writeFileSync(p,h);

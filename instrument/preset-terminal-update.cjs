@@ -1,0 +1,1 @@
+const fs=require('fs');let h=fs.readFileSync('dist/index.html','utf8');if(!h.includes('preset-terminal.css'))h=h.replace('<link rel="stylesheet" href="icon-generators.css">','<link rel="stylesheet" href="icon-generators.css"><link rel="stylesheet" href="preset-terminal.css">');fs.writeFileSync('dist/index.html',h);
